@@ -21,6 +21,6 @@ In this tutorial, you build a simple client for `unquote`, the read-only social 
 
 - Fork the code
 - Navigate to Project directory in Shell on Mac 
-- Once in the directory, type in 'python -m SimpleHTTPServer' to start server
-- Open Chrome or Safari and type in  'http://localhost:8080' to run local server
+- Once in the directory, type in `python -m SimpleHTTPServer` to start server
+- Open Chrome or Safari and type in  `http://localhost:8080` to run local server
 - App should popup 
