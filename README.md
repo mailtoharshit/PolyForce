@@ -1,4 +1,4 @@
-# Polymer Starter Project - First Application Finished Tutorial by #Harshit Pandey 
+# Polymer Starter Project - this is the code that you develop after finishing tutorial
 Read more on : http://wwww.oyecode.com
 
 Fork this project and dump all folder to your native machine and run the index.html
