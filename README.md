@@ -1,5 +1,6 @@
-# Polymer Starter Project - this is the code that you develop after finishing tutorial
-Read more on : http://wwww.oyecode.com
+# Polymer Starter Project
+- This is the code that you develop after finishing tutorial
+  Read more on : http://wwww.oyecode.com
 
 Fork this project and dump all folder to your native machine and run the index.html
 This is finished project after running tutorial hosted on Google Polymer Website
