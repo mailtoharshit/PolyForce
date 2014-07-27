@@ -1,4 +1,13 @@
-<!-- This is the demo and first polymer element --> 
-<script src="bower_components/platform/platform.js"></script>
+<html>
+  <head>
+    <!-- 1. Load platform.js for polyfill support. -->
+    <script src="bower_components/platform/platform.js"></script>
+
+    <!-- 2. Use an HTML Import to bring in the element. -->
+    <link rel="import"
+          href="bower_components/polymer/polymer.html">
+  </head>
 <link rel="import" href="myelement.html">
-<div><myelement></myelement></div>
+<html>
+<myelement value="Harshit"></myelement>
+</html>
