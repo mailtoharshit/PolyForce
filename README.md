@@ -1,26 +1,26 @@
 # Polymer Starter Project
+## Project contents
 - This is the code that you develop after finishing tutorial
 - Read more on : http://wwww.oyecode.com
 
-Fork this project and dump all folder to your native machine and run the index.html
-This is finished project after running tutorial hosted on Google Polymer Website
-
-This project includes a set of Polymer components and a starter project,
-designed to be used with the [Polymer tutorial](http://polymer-project.org/docs/start/tutorial/intro.html).
+Fork this project, create two new page in visualforce in your org 
 
 
-In this tutorial, you build a simple client for `unquote`, the read-only social networking service.
+1. Visualforce Component -
+   This is the component page, were I have designed a polymer component and imported the required resource files
+   . We need polymer.js and platform.js which I have imported from the CDN resource or cdnjs
+
+   Here I have created a custom component that create  a string that says : 'Hello {{value}} provided by user '
+   - '<test-elem name="World"></test-elem>'
 
 
-## Project contents
+2. Demo page - 
+   The demo page, just comsume this polymer element, you can pass on any value to show it
 
- -   `starter`. Scaffolding for the starter project. If you're working through the tutorial, start here!
- -  'Ready to used finished code'
+
 
 ##How to run the project 
 
 - Fork the code
-- Navigate to Project directory in Shell on Mac 
-- Once in the directory, type in `python -m SimpleHTTPServer` to start server
-- Open Chrome or Safari and type in  `http://localhost:8080` to run local server
-- App should popup 
+- Create two pages in the salesforce org
+- Start using component by running the visualforce page  -  '<instacename>/apex/polymerdemo'
