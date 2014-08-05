@@ -9,7 +9,7 @@ Fork this project, create two new page in visualforce in your org
 1. Visualforce Component -
    This is the component page, were I have designed a polymer component and imported the required resource files
    . We need polymer.js and platform.js which I have imported from the CDN resource or cdnjs
-   Here I have created a custom component that create  a string that says : - 'Hello {{value}}' provided by user
+   Here I have created a custom component that create  a string that says : - 'Hello {{value}}' provided by user martin
    
 - "<test-elem name="World"></test-elem>"
 
