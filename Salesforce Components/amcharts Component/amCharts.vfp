@@ -1,11 +1,38 @@
 <apex:page showChat="false" showHeader="false" standardStylesheets="false" >
     <script src="//cdnjs.cloudflare.com/ajax/libs/polymer/0.3.3/polymer.js"></script> 
     <script src="//cdnjs.cloudflare.com/ajax/libs/polymer/0.3.3/platform.js"></script>
-    <link rel="import" href="/apex/forceui_bootstrap_datatable"/> 
-    <body>
-        <data-table sobject="Contact" fields='Id, Name, FirstName, LastName, Phone, Email' orderby="Name" tableclasses="table-hover" theme="warning" limitresults="14"></data-table>
-        <data-table sobject="Contact" fields="Id, Name, FirstName, LastName, Phone, Email" orderby="Name" tableclasses="table-hover" theme="success " limitresults="14"></data-table>
-        <data-table sobject="Contact" fields="Id, Name, FirstName, LastName, Phone, Email" orderby="Phone" tableclasses="table-hover" theme="info" limitresults="14"></data-table>
-        <data-table sobject="Contact" fields="Id, Name, FirstName, LastName, Phone, Email" orderby="FirstName" tableclasses="table-hover" theme="danger" limitresults="14"></data-table>
-    </body>  
+    <link rel="import" href="{!URLFOR($Resource.MobileUIElements, 'dist/mobile-ui-elements.html')}"/>
+    <link rel="import" href="/apex/force_ui_amchart"/>
+  
+    <!-- 
+    <b>Sample Donut Chart : </b><br/>
+    <force-amchart charttype="donut" sobject="Opportunity" titlefield="Name" valuefield="Amount" limitResults="50"></force-amchart>
+    <b>Sample Pie Chart : </b><br/>
+    <force-amchart sobject="Opportunity" titlefield="Name" valuefield="Amount" limitResults="9" orderby="Amount" ordertype="DESC"></force-amchart>
+    <br/> 
+    <b>Sample Pie Chart with Legend : </b><br/> 
+    <force-amchart charttype="pielegend" sobject="Opportunity" titlefield="Name" valuefield="Amount" limitResults="3" orderby="Amount" ordertype="DESC"></force-amchart>
+    <br/>
+    <b>Sample Bar Chart : </b><br/>
+    <force-amchart charttype="bar" sobject="Opportunity" titlefield="Name" valuefield="ExpectedRevenue" orderby="Amount" ordertype="DESC" limitResults="7"></force-amchart>
+    <br/>
+    <b>Sample Bar Rotate with Slanted Title Chart : </b><br/>
+    <force-amchart charttype="bar_rotate" sobject="Opportunity" titlefield="Name" valuefield="Probability" limitResults="10"></force-amchart>
+    <br /> 
+    
+    <b>Sample Pyramid Chart : </b><br/>
+    <force-amchart charttype="pyramid" sobject="Opportunity" titlefield="Name" valuefield="Probability" limitResults="10"></force-amchart>
+    <br /> 
+    <force-amchart charttype="barline" sobject="Opportunity" titlefield="Name" valuefield="Amount" limitResults="4"></force-amchart>
+    <br /> 
+    -->
+    <b>Sample Pie Chart with Legend : </b><br/> 
+    <force-amchart charttype="pielegend" sobject="Opportunity" titlefield="Name" valuefield="Amount" limitResults="5" orderby="Amount" ordertype="DESC"></force-amchart>
+    <br/>
+        <br/>
+        
+    
+    <force-amchart charttype="bar" sobject="Opportunity" titlefield="Name" valuefield="ExpectedRevenue" orderby="Amount" ordertype="DESC" limitResults="5"></force-amchart>
+    <br/>
+        
 </apex:page>
