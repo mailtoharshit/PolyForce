@@ -7,8 +7,7 @@ To run in your browser:
 1. Install the unmanage polymer package from  https://na17.salesforce.com/packaging/installPackage.apexp?p0=04to000000033gx
 
 2. Create a new visualforce page and turn the follow attributes off 
-   *Attributes **: 
-     - <apex:page showChat="false" showHeader="false" standardStylesheets="false" >
+    <apex:page showChat="false" showHeader="false" standardStylesheets="false" >
 
 3.  Link the required resources 
     Now link Javascript CDN resource to Polymer.js and Polyfill.js and dist folder mobile-UI-HTML component to query salesforce 
