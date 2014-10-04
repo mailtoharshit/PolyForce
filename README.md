@@ -53,7 +53,7 @@ To run in your browser:
    limitResults: Limit the result (integer)
    orderby = DESC
    ```
-##Visualforce Page for Pie Chart  : 
+##Visualforce Page for Pie Chart  :  
    
    ```
    <apex:page showChat="false" showHeader="false" standardStylesheets="false" >
