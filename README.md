@@ -30,6 +30,31 @@ To run in your browser:
    ```
 ![ScreenShot](http://i32.photobucket.com/albums/d22/Harshit_Pandey/piechart_zpsb49e85a3.gif?t=1412410188)
 
+  ```
+   ##<b>Sample Pyramid Chart : </b><br/>
+    <force-amchart charttype="pyramid" sobject="Opportunity" titlefield="Name" valuefield="Amount"       
+    limitResults="50"></force-amchart>
+   ```
+![ScreenShot](http://res.cloudinary.com/hzxejch6p/image/upload/h_372,w_1024/v1410681362/pyramid_utc8o8.gif)
+
+
+  ```
+   ##<b>Sample Pie Chart : </b><br/>
+    <force-amchart charttype="pyramid" sobject="Opportunity" titlefield="Name" valuefield="Amount"       
+    limitResults="50"></force-amchart>
+   ```
+![ScreenShot](http://res.cloudinary.com/hzxejch6p/image/upload/h_372,w_1024/v1410681362/pyramid_utc8o8.gif)
+
+
+  ```
+   ##<b>Sample Pie Chart : </b><br/>
+    <force-amchart charttype="pyramid" sobject="Opportunity" titlefield="Name" valuefield="Amount"       
+    limitResults="50"></force-amchart>
+   ```
+![ScreenShot](http://res.cloudinary.com/hzxejch6p/image/upload/h_370,w_1024/v1410679705/donut_chart_ykc9cz.gif)
+
+
+
 ##Supported Attributes : 
    
    We have built chart components that support six key attributes
@@ -63,6 +88,12 @@ To run in your browser:
    2. Design Salesforce UI with drag and drop using Salesforce Polymer Pack for Mobile : Check out embedded video driven by 
       Akhilesh Gupta and Eugiene Oaksman in San Francisco HTML5 meetup at 
       http://www.oyecode.com/2014/07/how-to-use-google-polymer-with.html
+ 
+   Checkout designer studio here 
+   [![ScreenShot](http://res.cloudinary.com/hzxejch6p/image/upload/h_370,w_1024/v1410679705/donut_chart_ykc9cz.gif)(https://static.dyp.im/3ZqKwf9WDS/20b9628e26be22cf4180aaccb7afbd55.gif)]
+
+[![ScreenShot](http://res.cloudinary.com/hzxejch6p/image/upload/h_370,w_1024/v1410679705/donut_chart_ykc9cz.gif)(https://www.youtube.com/watch?v=rZ9fhOPooN4)]
+
    3. Salesforce Mobile UI/ Polymer Package official library - https://github.com/ForceDotComLabs/mobile-ui-elements
    4. What is Polymer : Presentation by Eric Bidelman 
    5. What is a Webcomponent : http://webdesign.tutsplus.com/articles/how-to-create-your-own-html-elements-with-web-components--cm
