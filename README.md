@@ -1,7 +1,16 @@
 # PolyForce
 ## Using Polymer components  with Visualforce to draw Amazing Charts
 
+# Table of Contents
+ 
+* [Quick Start](#quick-start)
+* [Supported Attributes](#supported-attributes)
+* [Related Resources](#related-resources)
+* [Contributers](#team-members)
 
+
+
+# <a name="how-to"></a>Quick Start
 To run in your browser:
 
 1. Install the unmanage polymer package from in your org from here  https://na17.salesforce.com/packaging/installPackage.apexp?p0=04to000000033gx
@@ -47,9 +56,8 @@ To run in your browser:
 
 
   
+## <a name="supported-attributes"></a>Supported Attributes 
 
-##Supported Attributes : 
-   
    We have built chart components that support six key attributes
 
    ```
@@ -60,8 +68,8 @@ To run in your browser:
    limitResults: Limit the result (integer)
    orderby = DESC
    ```
-##Visualforce Page for Pie Chart  : 
-   
+## <a name="Sample-Visualforce-Page"></a>Visualforce Page for Pie Chart  : 
+
    ```
    <apex:page showChat="false" showHeader="false" standardStylesheets="false" >
     <script src="//cdnjs.cloudflare.com/ajax/libs/polymer/0.3.3/polymer.js"></script> 
@@ -76,7 +84,8 @@ To run in your browser:
    ```
 ###Hang tight for npm and bower package and upcoming components 
 
-##Related Resource 
+## <a name="related-resources"></a>Related Resources   : 
+
    1. How create Polymer Components in miunutes : http://www.oyecode.com/2014/07/google-polymer-create-your-first-custom.html
    2. Design Salesforce UI with drag and drop using Salesforce Polymer Pack for Mobile : Check out embedded video driven by 
       Akhilesh Gupta and Eugiene Oaksman in San Francisco HTML5 meetup at 
@@ -88,16 +97,16 @@ To run in your browser:
 
    3. Salesforce Mobile UI/ Polymer Package official library - https://github.com/ForceDotComLabs/mobile-ui-elements
    4. What is Polymer : Presentation by Eric Bidelman 
-   5. What is a Webcomponent : http://webdesign.tutsplus.com/articles/how-to-create-your-own-html-elements-with-web-components--cm
-      s-21524
+   5. What is a Webcomponent : http://webdesign.tutsplus.com/articles/how-to-create-your-own-html-elements-with-web-components--cms-21524
    6. Sharing Polymer Component : http://code.tutsplus.com/tutorials/sharing-polymer-components-part-2--cms-21497
    7. Interacting with Google Service with nothing but just HTML using Polymer 
       [![ScreenShot](http://i32.photobucket.com/albums/d22/Harshit_Pandey/ScreenShot2014-10-04at34714AM_zpsf69275ff.png)](https://www.youtube.com/watch?v=eORqFaf_QzM)
 
 
-# Table of Contents
- 
-* [Team Members](#team-members)
  
 # <a name="team-members"></a>Team Members
-* "J. Jesus. P. Aguinaga" <admin@listforks.com>
+* "Martin Mayer" <https://github.com/mmeyerAlitmetrik>
+* "Akhilesh Gupta" <https://github.com/akhileshgupta>
+* "Lauren Grau" <https://twitter.com/laurengrau>
+* "Avinava Maiti" <https://github.com/Avinava>
+* 
