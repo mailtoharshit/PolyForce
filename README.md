@@ -54,6 +54,13 @@ To run in your browser:
    ```
 ![ScreenShot](http://res.cloudinary.com/hzxejch6p/image/upload/h_370,w_1024/v1410679705/donut_chart_ykc9cz.gif)
 
+   ```
+   ##<b>Sample Pie Chart : </b><br/>
+    <force-amchart charttype="bar" sobject="Opportunity" titlefield="Name" valuefield="Amount"       
+    limitResults="7"></force-amchart>
+   ```
+![ScreenShot](http://cdn.makeagif.com/media/9-27-2014/fZi0zb.gif)
+
 
   
 ## <a name="supported-attributes"></a>Supported Attributes 
@@ -82,6 +89,8 @@ To run in your browser:
     <force-amchart charttype="pielegend" sobject="Opportunity" titlefield="Name" valuefield="Amount" 
     limitResults="50"></force-amchart>
    ```
+   
+   
 ###Hang tight for npm and bower package and upcoming components 
 
 ## <a name="related-resources"></a>Related Resources   : 
