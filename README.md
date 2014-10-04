@@ -1,5 +1,5 @@
 # PolyForce
-## Using Polymer components  with Visualforce to draw Amazing Charts
+## Using Polymer components with Visualforce 
 
 # Table of Contents
  
