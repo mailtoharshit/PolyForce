@@ -16,13 +16,7 @@ To run in your browser:
     <apex:page showChat="false" showHeader="false" standardStylesheets="false" >
     <script src="//cdnjs.cloudflare.com/ajax/libs/polymer/0.3.3/polymer.js"></script> 
     <script src="//cdnjs.cloudflare.com/ajax/libs/polymer/0.3.3/platform.js"></script>
-   ```
-3.  Import data component to query salesforce imported from Salesforce Mobile UI Library   
-    Now link Javascript CDN resource to Polymer.js and Polyfill.js and dist folder mobile-UI-HTML component to query salesforce 
-   
-   ```
     <link rel="import" href="{!URLFOR($Resource.MobileUIElements, 'dist/mobile-ui-elements.html')}"/>
-    
    ```
 ##Start using charting component in Visualforce: 
 
