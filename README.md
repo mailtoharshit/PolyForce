@@ -28,6 +28,7 @@ To run in your browser:
     <force-amchart charttype="donut" sobject="Opportunity" titlefield="Name" valuefield="Amount"       
     limitResults="50"></force-amchart>
    ```
+[![ScreenShot](http://res.cloudinary.com/hzxejch6p/image/upload/h_370,w_1024/v1410679705/donut_chart_ykc9cz.gif)]
 
 ##Supported Attributes : 
    
