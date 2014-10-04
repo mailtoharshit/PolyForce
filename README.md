@@ -109,4 +109,3 @@ To run in your browser:
 * "Akhilesh Gupta" <https://github.com/akhileshgupta>
 * "Lauren Grau" <https://twitter.com/laurengrau>
 * "Avinava Maiti" <https://github.com/Avinava>
-* 
