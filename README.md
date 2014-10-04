@@ -73,7 +73,7 @@ To run in your browser:
    titlefield : Stirng (fieldname) (x-component)
    valuefield : String (fieldname) (y-component)
    limitResults: Limit the result (integer)
-   orderby = DESC
+   orderby = DESC/ASC
    ```
 ## <a name="Sample-Visualforce-Page"></a>Visualforce Page for Pie Chart  : 
 
