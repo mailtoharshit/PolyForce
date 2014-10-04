@@ -92,4 +92,4 @@ To run in your browser:
       s-21524
    6. Sharing Polymer Component : http://code.tutsplus.com/tutorials/sharing-polymer-components-part-2--cms-21497
    7. Interacting with Google Service with nothing but just HTML using Polymer 
-      [![ScreenShot](https://raw.github.com/GabLeRoux/WebMole/master/ressources/WebMole_Youtube_Video.png)](https://www.youtube.com/watch?v=eORqFaf_QzM)
+      [![ScreenShot](http://i32.photobucket.com/albums/d22/Harshit_Pandey/ScreenShot2014-10-04at34714AM_zpsf69275ff.png)](https://www.youtube.com/watch?v=eORqFaf_QzM)
