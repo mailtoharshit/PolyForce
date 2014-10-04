@@ -91,5 +91,5 @@ To run in your browser:
    5. What is a Webcomponent : http://webdesign.tutsplus.com/articles/how-to-create-your-own-html-elements-with-web-components--cm
       s-21524
    6. Sharing Polymer Component : http://code.tutsplus.com/tutorials/sharing-polymer-components-part-2--cms-21497
-   7. Interacting with Google Service with nothing but just HTML using Polymer : https://www.youtube.com/watch?v=eORqFaf_QzM
-      [![ScreenShot](https://raw.github.com/GabLeRoux/WebMole/master/ressources/WebMole_Youtube_Video.png)](http://youtu.be/vt5fpE0bzSY)
+   7. Interacting with Google Service with nothing but just HTML using Polymer 
+      [![ScreenShot](https://raw.github.com/GabLeRoux/WebMole/master/ressources/WebMole_Youtube_Video.png)](https://www.youtube.com/watch?v=eORqFaf_QzM)
