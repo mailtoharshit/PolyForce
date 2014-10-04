@@ -8,37 +8,42 @@ To run in your browser:
 
 2. Create a new visualforce page and turn the follow attributes off 
    ```
-     - <apex:page showChat="false" showHeader="false" standardStylesheets="false" >
-   ```
+      <apex:page showChat="false" showHeader="false" standardStylesheets="false" >
+   ``` 
    
-3.  Link the required resources 
+3.  Link the required resources for Polymer CDN libraries  
     Now link Javascript CDN resource to Polymer.js and Polyfill.js and dist folder mobile-UI-HTML component to query salesforce 
    ```
-   - <apex:page showChat="false" showHeader="false" standardStylesheets="false" >
-   - <script src="//cdnjs.cloudflare.com/ajax/libs/polymer/0.3.3/polymer.js"></script> 
-   - <script src="//cdnjs.cloudflare.com/ajax/libs/polymer/0.3.3/platform.js"></script>
+    <apex:page showChat="false" showHeader="false" standardStylesheets="false" >
+    <script src="//cdnjs.cloudflare.com/ajax/libs/polymer/0.3.3/polymer.js"></script> 
+    <script src="//cdnjs.cloudflare.com/ajax/libs/polymer/0.3.3/platform.js"></script>
+   ```
+
+##Start using charting component in Visualforce: 
+
+
+1. Import charting component (installed through unmanaged package) on your page
+   
+   ```
+      <link rel="import" href="/apex/force_ui_amchart"/>
+   ```
+2. Start using it 
+   
+   ```
+   ##<b>Sample Donut Chart : </b><br/>
+    <force-amchart charttype="donut" sobject="Opportunity" titlefield="Name" valuefield="Amount"       
+    limitResults="50"></force-amchart>
+   ```
+
+##Supported Attributes : 
+   
+   ###We have built chart components that support four key attributes
 
    ```
-   
-   To use Polymer Chart Component : 
-
-
-1. Lets import the Charting component 
-
-2. Copy dx.chartjs.js and globalize.min.js in www/lib/chartjs
-
-3. Open Terminal and type:
-
-    ```
-    cordova create olympic-dashboard-chartjs
-    cd olympic-dashboard-chartjs
-    cordova platforms add ios
-    cordova plugin add org.apache.cordova.device
-    cordova plugin add org.apache.cordova.console
-    cordova plugin add org.apache.cordova.statusbar
-    ```
-
-4. Delete the www folder that was created and replace it with the www folder from this repo
-
-5. In terminal t
-
+   Charttype : (supported) donut, pie, pielengend, bar, bar_rotate, pyramid, barline
+   sObject : (supported) salesforce standard object
+   titlefield : Stirng (fieldname) (x-component)
+   valuefield : String (fieldname) (y-component)
+   limitResults: Limit the result (integer)
+   orderby = DESC
+   ```
