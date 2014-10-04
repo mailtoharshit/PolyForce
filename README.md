@@ -70,7 +70,7 @@ To run in your browser:
 ###Hang tight for npm and bower package and upcoming components 
 
 ##Related Resource 
-   1. How create Polymer Component in miunutes : http://www.oyecode.com/2014/07/google-polymer-create-your-first-custom.html
+   1. How create Polymer Components in miunutes : http://www.oyecode.com/2014/07/google-polymer-create-your-first-custom.html
    2. Design Salesforce UI with drag and drop using Salesforce Polymer Pack for Mobile : Check out embedded video driven by 
       Akhilesh Gupta and Eugiene Oaksman in San Francisco HTML5 meetup at 
       http://www.oyecode.com/2014/07/how-to-use-google-polymer-with.html
