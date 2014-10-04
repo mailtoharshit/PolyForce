@@ -4,17 +4,23 @@
 
 To run in your browser:
 
-1. Download ChartJS from http://chartjs.devexpress.com/
+1. Install the unmanage polymer package from  https://na17.salesforce.com/packaging/installPackage.apexp?p0=04to000000033gx
 
-2. Copy dx.chartjs.js and globalize.min.js in www/lib/chartjs
+2. Create a new visualforce page and turn the follow attributes off 
+   *Attributes **: 
+     - <apex:page showChat="false" showHeader="false" standardStylesheets="false" >
 
-3. Open www/index.html in your browser
+3.  Link the required resources 
+    Now link Javascript CDN resource to Polymer.js and Polyfill.js and dist folder mobile-UI-HTML component to query salesforce 
+   - <apex:page showChat="false" showHeader="false" standardStylesheets="false" >
+   - <script src="//cdnjs.cloudflare.com/ajax/libs/polymer/0.3.3/polymer.js"></script> 
+   - <script src="//cdnjs.cloudflare.com/ajax/libs/polymer/0.3.3/platform.js"></script>
 
 
-To run as a Cordova app:
+To use Polymer Chart Component : 
 
 
-1. Download ChartJS from http://chartjs.devexpress.com/
+1. Lets import the Charting component 
 
 2. Copy dx.chartjs.js and globalize.min.js in www/lib/chartjs
 
