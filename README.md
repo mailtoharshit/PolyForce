@@ -1,5 +1,17 @@
-# Polymer Starter Project
-## Project contents
+# PolyForce
+## Using PolymerChart components with Visualforce
+
+*An approach to use components in visualforce*
+
+## Table of Contents
+
+  1. [What does it do](#what)
+  2. [How to create new Polymer Element](#create)
+  3. [Binding with AmCharts](#amcharts)
+  4. [Supported Attirbutes](#attributes)
+  5. [Using Components](#usage)
+  6. 
+
 - This is the code that you develop after finishing tutorial
 - Read more on : http://wwww.oyecode.com
 
