@@ -1,5 +1,5 @@
 # PolyForce
-## Using Polymer components  with Visualforce
+## Using Polymer components  with Visualforce to draw Amazing Charts
 
 
 To run in your browser:
