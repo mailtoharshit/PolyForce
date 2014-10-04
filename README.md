@@ -84,8 +84,7 @@ To run in your browser:
  
    Try designer here at  https://sfdc-designer.herokuapp.com/
 
-   ![ScreenShot](https://static.dyp.im/3ZqKwf9WDS/20b9628e26be22cf4180aaccb7afbd55.gif)(https://www.youtube.com/watch?v=67FjSemJ7uQ&feature=youtu.be)
-
+   [![ScreenShot](https://static.dyp.im/3ZqKwf9WDS/20b9628e26be22cf4180aaccb7afbd55.gif)](https://www.youtube.com/watch?v=67FjSemJ7uQ&feature=youtu.be)
 
    3. Salesforce Mobile UI/ Polymer Package official library - https://github.com/ForceDotComLabs/mobile-ui-elements
    4. What is Polymer : Presentation by Eric Bidelman 
