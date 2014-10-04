@@ -11,8 +11,7 @@ To run in your browser:
       <apex:page showChat="false" showHeader="false" standardStylesheets="false" >
    ``` 
    
-3.  Link Javascript CDN resources for Polymer.js and Polyfill.js and static resource called  mobile-UI-HTML which will help     
-    querying Salesforce
+3.  Link Javascript CDN resources for Polymer.js and Polyfill.js and static resource called  mobile-UI-HTML to query Salesforce
    ```
     <apex:page showChat="false" showHeader="false" standardStylesheets="false" >
     <script src="//cdnjs.cloudflare.com/ajax/libs/polymer/0.3.3/polymer.js"></script> 
