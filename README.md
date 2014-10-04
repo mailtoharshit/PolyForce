@@ -32,7 +32,7 @@ To run in your browser:
 
 ##Supported Attributes : 
    
-   ###We have built chart components that support four key attributes
+   We have built chart components that support four key attributes
 
    ```
    Charttype : (supported) donut, pie, pielengend, bar, bar_rotate, pyramid, barline
