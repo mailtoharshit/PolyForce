@@ -6,8 +6,7 @@ To run in your browser:
 
 1. Install the unmanage polymer package from in your org from here  https://na17.salesforce.com/packaging/installPackage.apexp?p0=04to000000033gx
 
-2. Create a new visualforce page and link Javascript CDN resources for Polymer.js and Polyfill.js and static resource called     
-   mobile-UI-HTML to query Salesforce
+2. Create a new visualforce page and link Javascript CDN resources for Polymer.js and Polyfill.js and static resource called mobile-UI-HTML to query Salesforce
    ```
     <apex:page showChat="false" showHeader="false" standardStylesheets="false" >
     <script src="//cdnjs.cloudflare.com/ajax/libs/polymer/0.3.3/polymer.js"></script> 
