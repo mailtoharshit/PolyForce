@@ -46,14 +46,7 @@ To run in your browser:
 ![ScreenShot](http://res.cloudinary.com/hzxejch6p/image/upload/h_372,w_1024/v1410681362/pyramid_utc8o8.gif)
 
 
-  ```
-   ##<b>Sample Pie Chart : </b><br/>
-    <force-amchart charttype="pyramid" sobject="Opportunity" titlefield="Name" valuefield="Amount"       
-    limitResults="50"></force-amchart>
-   ```
-![ScreenShot](http://res.cloudinary.com/hzxejch6p/image/upload/h_370,w_1024/v1410679705/donut_chart_ykc9cz.gif)
-
-
+  
 
 ##Supported Attributes : 
    
@@ -90,9 +83,8 @@ To run in your browser:
       http://www.oyecode.com/2014/07/how-to-use-google-polymer-with.html
  
    Checkout designer studio here 
-   [![ScreenShot](http://res.cloudinary.com/hzxejch6p/image/upload/h_370,w_1024/v1410679705/donut_chart_ykc9cz.gif)(https://static.dyp.im/3ZqKwf9WDS/20b9628e26be22cf4180aaccb7afbd55.gif)]
+   ![ScreenShot](https://static.dyp.im/3ZqKwf9WDS/20b9628e26be22cf4180aaccb7afbd55.gif)
 
-[![ScreenShot](http://res.cloudinary.com/hzxejch6p/image/upload/h_370,w_1024/v1410679705/donut_chart_ykc9cz.gif)(https://www.youtube.com/watch?v=rZ9fhOPooN4)]
 
    3. Salesforce Mobile UI/ Polymer Package official library - https://github.com/ForceDotComLabs/mobile-ui-elements
    4. What is Polymer : Presentation by Eric Bidelman 
