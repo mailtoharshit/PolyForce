@@ -18,7 +18,13 @@ To run in your browser:
     <script src="//cdnjs.cloudflare.com/ajax/libs/polymer/0.3.3/polymer.js"></script> 
     <script src="//cdnjs.cloudflare.com/ajax/libs/polymer/0.3.3/platform.js"></script>
    ```
-
+3.  Import data component to query salesforce imported from Salesforce Mobile UI Library   
+    Now link Javascript CDN resource to Polymer.js and Polyfill.js and dist folder mobile-UI-HTML component to query salesforce 
+   
+   ```
+    <link rel="import" href="{!URLFOR($Resource.MobileUIElements, 'dist/mobile-ui-elements.html')}"/>
+    
+   ```
 ##Start using charting component in Visualforce: 
 
 
@@ -47,3 +53,18 @@ To run in your browser:
    limitResults: Limit the result (integer)
    orderby = DESC
    ```
+##Visualforce Page for Pie Chart  : 
+   
+   ```
+   <apex:page showChat="false" showHeader="false" standardStylesheets="false" >
+    <script src="//cdnjs.cloudflare.com/ajax/libs/polymer/0.3.3/polymer.js"></script> 
+    <script src="//cdnjs.cloudflare.com/ajax/libs/polymer/0.3.3/platform.js"></script>
+    <link rel="import" href="{!URLFOR($Resource.MobileUIElements, 'dist/mobile-ui-elements.html')}"/>
+    <link rel="import" href="/apex/force_ui_amchart"/>
+  
+    <!-- Using charting component after package installation --> 
+    <b>Sample Donut Chart : </b><br/>
+    <force-amchart charttype="donut" sobject="Opportunity" titlefield="Name" valuefield="Amount" 
+    limitResults="50"></force-amchart>
+   ```
+### Hang tight for npm and bower package and upcoming components 
