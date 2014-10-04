@@ -1,16 +1,30 @@
 # PolyForce
-## Using PolymerChart components with Visualforce
+## Using Polymer components  with Visualforce
 
 *An approach to use components in visualforce*
 
 ## Table of Contents
 
-  1. [What does it do](#what)
-  2. [How to create new Polymer Element](#create)
-  3. [Binding with AmCharts](#amcharts)
-  4. [Supported Attirbutes](#attributes)
+  1. [How to create new Polymer Element](#create)
+  2. [Binding with AmCharts](#amcharts)
+  3. [Supported Attirbutes](#attributes)
   5. [Using Components](#usage)
-  6. 
+
+
+
+## What does it do 
+
+- How to create first polymer element
+ ```Polymer Example 
+    <!-- Polyfill Web Components support for older browsers -->
+    <script src="components/platform/platform.js"></script>
+    
+    <!-- Import element -->
+    <link rel="import" href="google-map.html">
+    ```
+
+
+  - **Primitives**: When you access a primitive type you work directly on its value
 
 - This is the code that you develop after finishing tutorial
 - Read more on : http://wwww.oyecode.com
