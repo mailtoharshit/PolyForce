@@ -82,7 +82,7 @@ To run in your browser:
       Akhilesh Gupta and Eugiene Oaksman in San Francisco HTML5 meetup at 
       http://www.oyecode.com/2014/07/how-to-use-google-polymer-with.html
  
-   Try designer here at  https://sfdc-designer.herokuapp.com/
+   Try designer here at  https://sfdc-designer.herokuapp.com/ or click image below to check full blown video
 
    [![ScreenShot](https://static.dyp.im/3ZqKwf9WDS/20b9628e26be22cf4180aaccb7afbd55.gif)](https://www.youtube.com/watch?v=67FjSemJ7uQ&feature=youtu.be)
 
