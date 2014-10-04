@@ -53,7 +53,7 @@ To run in your browser:
    limitResults: Limit the result (integer)
    orderby = DESC
    ```
-##Visualforce Page for Pie Chart  :  
+##Visualforce Page for Pie Chart  : 
    
    ```
    <apex:page showChat="false" showHeader="false" standardStylesheets="false" >
@@ -67,4 +67,4 @@ To run in your browser:
     <force-amchart charttype="donut" sobject="Opportunity" titlefield="Name" valuefield="Amount" 
     limitResults="50"></force-amchart>
    ```
-### Hang tight for npm and bower package and upcoming components 
+###Hang tight for npm and bower package and upcoming components 
