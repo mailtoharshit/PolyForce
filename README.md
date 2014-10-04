@@ -11,8 +11,8 @@ To run in your browser:
       <apex:page showChat="false" showHeader="false" standardStylesheets="false" >
    ``` 
    
-3.  Link the required resources for Polymer CDN libraries  
-    Now link Javascript CDN resource to Polymer.js and Polyfill.js and dist folder mobile-UI-HTML component to query salesforce 
+3.  Link Javascript CDN resources for Polymer.js and Polyfill.js and static resource called  mobile-UI-HTML which will help     
+    querying Salesforce
    ```
     <apex:page showChat="false" showHeader="false" standardStylesheets="false" >
     <script src="//cdnjs.cloudflare.com/ajax/libs/polymer/0.3.3/polymer.js"></script> 
@@ -68,3 +68,15 @@ To run in your browser:
     limitResults="50"></force-amchart>
    ```
 ###Hang tight for npm and bower package and upcoming components 
+
+##Related Resource 
+   1. How create Polymer Component in miunutes : http://www.oyecode.com/2014/07/google-polymer-create-your-first-custom.html
+   2. Design Salesforce UI with drag and drop using Salesforce Polymer Pack for Mobile : Check out embedded video driven by 
+      Akhilesh Gupta and Eugiene Oaksman in San Francisco HTML5 meetup at 
+      http://www.oyecode.com/2014/07/how-to-use-google-polymer-with.html
+   3. Salesforce Mobile UI/ Polymer Package official library - https://github.com/ForceDotComLabs/mobile-ui-elements
+   4. What is Polymer : Presentation by Eric Bidelman 
+   5. What is a Webcomponent : http://webdesign.tutsplus.com/articles/how-to-create-your-own-html-elements-with-web-components--cm
+      s-21524
+   6. Sharing Polymer Component : http://code.tutsplus.com/tutorials/sharing-polymer-components-part-2--cms-21497
+   7. Interacting with Google Service with nothing but just HTML using Polymer : https://www.youtube.com/watch?v=eORqFaf_QzM
