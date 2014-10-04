@@ -12,41 +12,35 @@
 
 
 
-## What does it do 
+### Interactive Mobile Dashboard using ChartJS and Cordova ###
 
-- How to create first polymer element
- ```Polymer Example 
-    <!-- Polyfill Web Components support for older browsers -->
-    <script src="components/platform/platform.js"></script>
-    
-    <!-- Import element -->
-    <link rel="import" href="google-map.html">
+To run in your browser:
+
+1. Download ChartJS from http://chartjs.devexpress.com/
+
+2. Copy dx.chartjs.js and globalize.min.js in www/lib/chartjs
+
+3. Open www/index.html in your browser
+
+
+To run as a Cordova app:
+
+
+1. Download ChartJS from http://chartjs.devexpress.com/
+
+2. Copy dx.chartjs.js and globalize.min.js in www/lib/chartjs
+
+3. Open Terminal and type:
+
+    ```
+    cordova create olympic-dashboard-chartjs
+    cd olympic-dashboard-chartjs
+    cordova platforms add ios
+    cordova plugin add org.apache.cordova.device
+    cordova plugin add org.apache.cordova.console
+    cordova plugin add org.apache.cordova.statusbar
     ```
 
+4. Delete the www folder that was created and replace it with the www folder from this repo
 
-  - **Primitives**: When you access a primitive type you work directly on its value
-
-- This is the code that you develop after finishing tutorial
-- Read more on : http://wwww.oyecode.com
-
-Fork this project, create two new page in visualforce in your org 
-
-
-1. Visualforce Component -
-   This is the component page, were I have designed a polymer component and imported the required resource files
-   . We need polymer.js and platform.js which I have imported from the CDN resource or cdnjs
-   Here I have created a custom component that create  a string that says : - 'Hello {{value}}' provided by user martin
-   
-- "<test-elem name="World"></test-elem>"
-
-
-2. Demo page - 
-   The demo page, just comsume this polymer element, you can pass on any value to show it
-
-
-
-##How to run the project 
-
-- Fork the code
-- Create two pages in the salesforce org
-- Start using component by running the visualforce page  -  '<instacename>/apex/polymerdemo'
+5. In terminal t
