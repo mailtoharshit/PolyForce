@@ -25,10 +25,10 @@ To run in your browser:
    
    ```
    ##<b>Sample Donut Chart : </b><br/>
-    <force-amchart charttype="donut" sobject="Opportunity" titlefield="Name" valuefield="Amount"       
+    <force-amchart charttype="pielegend" sobject="Opportunity" titlefield="Name" valuefield="Amount"       
     limitResults="50"></force-amchart>
    ```
-![ScreenShot](http://i32.photobucket.com/albums/d22/Harshit_Pandey/piechart_zpsb49e85a3.gif?t=1412410188)
+![ScreenShot](http://res.cloudinary.com/hzxejch6p/image/upload/h_370,w_1024/v1410679705/donut_chart_ykc9cz.gif)
 
 ##Supported Attributes : 
    
@@ -53,7 +53,7 @@ To run in your browser:
   
     <!-- Using charting component after package installation --> 
     <b>Sample Donut Chart : </b><br/>
-    <force-amchart charttype="donut" sobject="Opportunity" titlefield="Name" valuefield="Amount" 
+    <force-amchart charttype="pielegend" sobject="Opportunity" titlefield="Name" valuefield="Amount" 
     limitResults="50"></force-amchart>
    ```
 ###Hang tight for npm and bower package and upcoming components 
