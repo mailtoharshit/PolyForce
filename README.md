@@ -1,18 +1,6 @@
 # PolyForce
 ## Using Polymer components  with Visualforce
 
-*An approach to use components in visualforce*
-
-## Table of Contents
-
-  1. [How to create new Polymer Element](#create)
-  2. [Binding with AmCharts](#amcharts)
-  3. [Supported Attirbutes](#attributes)
-  5. [Using Components](#usage)
-
-
-
-### Interactive Mobile Dashboard using ChartJS and Cordova ###
 
 To run in your browser:
 
