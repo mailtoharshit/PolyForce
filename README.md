@@ -114,6 +114,7 @@ To run in your browser:
 
  
 # <a name="team-members"></a>Team Members
+* "Harshit Pandey" <https://github.com/mailtoharshit>
 * "Martin Mayer" <https://github.com/mmeyerAlitmetrik>
 * "Akhilesh Gupta" <https://github.com/akhileshgupta>
 * "Lauren Grau" <https://twitter.com/laurengrau>
