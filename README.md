@@ -118,4 +118,4 @@ To run in your browser:
 * "Martin Mayer" <https://github.com/mmeyerAlitmetrik>
 * "Akhilesh Gupta" <https://github.com/akhileshgupta>
 * "Lauren Grau" <https://twitter.com/laurengrau>
-* "Avinava Maiti" <https://github.com/Avinava>
+* "Avinava Maiti" <https://github.com/Avinava> 
