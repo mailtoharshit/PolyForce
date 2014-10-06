@@ -8,7 +8,7 @@
 * [Related Resources](#related-resources)
 * [Contributers](#team-members)
 
-![Analytics](https://github.com/mailtoharshit//UA-46899860-1/PolyForce/readme)
+[![Analytics](https://ga-beacon.appspot.com/UA-55449664-1/mailtoharshit/PolyForce/blob/master/README.md)](https://github.com/igrigorik/ga-beacon)
 
 # <a name="how-to"></a>Quick Start
 To run in your browser:
