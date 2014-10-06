@@ -8,7 +8,7 @@
 * [Related Resources](#related-resources)
 * [Contributers](#team-members)
 
-
+[![Analytics](https://ga-beacon.appspot.com/UA-46899860-1/chromeskel_a/readme)](https:
 
 # <a name="how-to"></a>Quick Start
 To run in your browser:
