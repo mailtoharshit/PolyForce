@@ -8,7 +8,6 @@
 * [Related Resources](#related-resources)
 * [Contributers](#team-members)
 
-[![Analytics](https://ga-beacon.appspot.com/UA-55449664-1/mailtoharshit/PolyForce/blob/master/README.md)](https://github.com/igrigorik/ga-beacon)
 
 # <a name="how-to"></a>Quick Start
 To run in your browser:
@@ -119,3 +118,5 @@ To run in your browser:
 * "Akhilesh Gupta" <https://github.com/akhileshgupta>
 * "Lauren Grau" <https://twitter.com/laurengrau>
 * "Avinava Maiti" <https://github.com/Avinava> 
+
+[![Analytics](https://ga-beacon.appspot.com/UA-55449664-1/mailtoharshit/PolyForce/blob/master/README.md)](https://github.com/igrigorik/ga-beacon)
