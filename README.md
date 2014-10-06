@@ -13,9 +13,9 @@
 # <a name="how-to"></a>Quick Start
 To run in your browser:
 
-1. Install the unmanage polymer package from in your org from here  https://na17.salesforce.com/packaging/installPackage.apexp?p0=04to000000033gx
+1. Install this unmanaged package:  https://na17.salesforce.com/packaging/installPackage.apexp?p0=04to000000033gx
 
-2. Create a new visualforce page and link Javascript CDN resources for Polymer.js and Polyfill.js and static resource called mobile-UI-HTML to query Salesforce
+2. Create a new visualforce page and link Javascript CDN resources for platform.js, polymer.js and Mobile-UI-Elements from the static resource library. "platform.js" and "polymer.js" are the libraries for Polymer Framework, and Mobile-UI-Elements is a set of Polymer based Web Components that allow accessing data from Salesforce.
    ```
     <apex:page showChat="false" showHeader="false" standardStylesheets="false" >
     <script src="//cdnjs.cloudflare.com/ajax/libs/polymer/0.3.3/polymer.js"></script> 
