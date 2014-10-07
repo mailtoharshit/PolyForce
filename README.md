@@ -14,7 +14,7 @@ To run in your browser two easy steps :
 
 1. Install this unmanaged package:  https://na17.salesforce.com/packaging/installPackage.apexp?p0=04to000000033gx
    
-2. Open <your-instance>/apex/amchart
+2. Type in url -  (your-salesforce-instance)/apex/amchart (example : https://na17.salesforce.com/apex/amchart)
 
 3. Done 
 
