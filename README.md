@@ -29,7 +29,7 @@ To run in your browser two easy steps :
    ```
       <link rel="import" href="/apex/force_ui_amchart"/>
    ```
-2. Start using it 
+2. Start using them : Listing some sample charts types
    
    ```
    ##<b>Sample Donut Chart : </b><br/>
