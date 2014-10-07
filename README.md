@@ -10,16 +10,16 @@
 
 
 # <a name="how-to"></a>Quick Start
-To run in your browser:
+To run in your browser two easy steps :
 
 1. Install this unmanaged package:  https://na17.salesforce.com/packaging/installPackage.apexp?p0=04to000000033gx
+   
+2. Open <your-instance>/apex/amchart
 
-2. Create a new visualforce page and link Javascript CDN resources for platform.js, polymer.js and Mobile-UI-Elements from the static resource library. "platform.js" and "polymer.js" are the libraries for Polymer Framework, and Mobile-UI-Elements is a set of Polymer based Web Components that allow accessing data from Salesforce.
+3. Done 
+
    ```
-    <apex:page showChat="false" showHeader="false" standardStylesheets="false" >
-    <script src="//cdnjs.cloudflare.com/ajax/libs/polymer/0.3.3/polymer.js"></script> 
-    <script src="//cdnjs.cloudflare.com/ajax/libs/polymer/0.3.3/platform.js"></script>
-    <link rel="import" href="{!URLFOR($Resource.MobileUIElements, 'dist/mobile-ui-elements.html')}"/>
+    Note  "platform.js" and "polymer.js" are the libraries for Polymer Framework, and Mobile-UI-Elements is a set of Polymer based Web Components that allow accessing data from Salesforce.
    ```
 ##Start using charting component in Visualforce: 
 
