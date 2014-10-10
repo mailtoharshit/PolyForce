@@ -54,7 +54,7 @@ To run in your browser two easy steps :
 ![ScreenShot](http://res.cloudinary.com/hzxejch6p/image/upload/h_370,w_1024/v1410679705/donut_chart_ykc9cz.gif)
 
    ```
-   ##<b>Sample Pie Chart : </b><br/>
+   ##<b>Sample Bar Chart : </b><br/>
     <force-amchart charttype="bar" sobject="Opportunity" titlefield="Name" valuefield="Amount"       
     limitResults="7"></force-amchart>
    ```
