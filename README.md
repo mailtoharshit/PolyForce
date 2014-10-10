@@ -113,8 +113,8 @@ To run in your browser two easy steps :
 
  
 # <a name="team-members"></a>Team Members
-* "Harshit Pandey" <https://github.com/mailtoharshit>
-* "Martin Mayer" <https://github.com/mmeyerAlitmetrik>
+* "Harshit Pandey" <https://github.com/mailtoharshit> 
+* "Martin Mayer" <https://github.com/mmeyer429> - Linkedin : http://www.linkedin.com/in/martinguillermomeyer/
 * "Akhilesh Gupta" <https://github.com/akhileshgupta>
 * "Lauren Grau" <https://twitter.com/laurengrau>
 * "Avinava Maiti" <https://github.com/Avinava> 
