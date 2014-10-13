@@ -1,0 +1,8 @@
+<apex:page showChat="false" showHeader="false" standardStylesheets="false" >
+    <script src="//cdnjs.cloudflare.com/ajax/libs/polymer/0.3.3/polymer.js"></script> 
+    <script src="//cdnjs.cloudflare.com/ajax/libs/polymer/0.3.3/platform.js"></script>
+    <link rel="import" href="/apex/forceui_bootstrap_datatable"/> 
+    <body>
+        <force-ui-data-table sobject="Contact" fields='Id, Name, FirstName, LastName, Phone, Email' orderby="Name" tableclasses="table-hover" theme="success" limitresults="14"></force-ui-data-table>
+    </body>  
+</apex:page>
