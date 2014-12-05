@@ -1,0 +1,10 @@
+<apex:page showChat="false" showHeader="false" standardStylesheets="false" >
+    <script src="//cdnjs.cloudflare.com/ajax/libs/polymer/0.3.3/polymer.js"></script> 
+    <script src="//cdnjs.cloudflare.com/ajax/libs/polymer/0.3.3/platform.js"></script>
+    <link rel="import" href="/apex/force_ui_listview"/>
+    <b>Sample list view: </b><br/>
+    <force-ui-listview  sobject="Opportunity"></force-ui-listview>
+    <div id="listview">
+                     Hello I am coming from fore-ui-view component
+    </div>
+</apex:page>
