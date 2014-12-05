@@ -1,6 +1,5 @@
 <apex:page contentType="text/plain">
         <link rel="import" href="{!URLFOR($Resource.MobileUIElements, 'dist/mobile-ui-elements.html')}"/>
-        <link rel="import" href="{!URLFOR($Resource.MobileUIElements, 'dist/mobile-ui-elements.html')}"/>
         <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> 
        
             <!--==============================================================-->
@@ -10,7 +9,7 @@
                 <script>
                    // List View 
                     // Call the List View API to get the results (also includes column definitions)
-                    var query='';
+                    var query='/services/data/v32.0/sobjects/accout/listviews';
                      Polymer('force-ui-listview', {
                          observe: {
                             sobject: 'ready'
