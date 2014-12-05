@@ -5,6 +5,5 @@
     <b>Sample list view: </b><br/>
     <force-ui-listview  sobject="Opportunity"></force-ui-listview>
     <div id="listview">
-                     Hello I am coming from fore-ui-view component
     </div>
 </apex:page>
