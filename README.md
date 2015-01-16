@@ -12,8 +12,9 @@
 # <a name="how-to"></a>Quick Start
 To run in your browser two easy steps :
 
-1. Install this package:  https://na17.salesforce.com/packaging/installPackage.apexp?p0=04to00000003EDJ
-   
+1.Click below to deploy the package in your org
+[![Button](https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/src/main/webapp/resources/img/deploy.png)](https://na17.salesforce.com/packaging/installPackage.apexp?p0=04to00000003EDJ)
+
 2. Type in url -  (your-salesforce-instance)/apex/amchart (example : https://na17.salesforce.com/apex/amchart)
 
 3. Done 
